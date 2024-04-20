@@ -1,0 +1,31 @@
+{
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true
+  },
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "checkJs": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "types": ["jest", "node"]
+  },
+  "exclude": [
+    "node_modules",
+    "public_html",
+    "test",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "./coverage",
+    "./dist",
+    "__tests__",
+    "jest.config.js"
+  ]
+}
